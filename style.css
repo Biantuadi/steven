@@ -1,0 +1,61 @@
+* {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  background-color: #e6e6f8;
+  position: relative;
+  padding: 15px;
+  height: 200px;
+}
+
+.buttons_calc_reset {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+
+button {
+  padding: 0 5px;
+  margin: 5px;
+}
+
+input {
+  /* width: 100%;
+  padding: 5px;
+  margin: 5px; */
+}
+
+input:focus {
+  outline: none;
+}
+
+.attributes input {
+  background-color: #f3fff1;
+}
+
+.parts input {
+  background-color: #B4C3DC;
+}
+
+.quantitys input {
+  background-color: #FCF1F5;
+}
+
+.attribut1, .attribut2, .attributX, .part1, .part2, .partX, .quantity1, .quantity2, .quantityX {
+  border: 1px solid blue;
+  margin-top: 10px;
+}
